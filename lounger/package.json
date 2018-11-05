@@ -1,0 +1,43 @@
+{
+  "name": "lounger",
+  "version": "1.0.0",
+  "description": "a tool for couchdb/pouchdb administration",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec",
+    "docs": "node ./build",
+    "prepublishOnly": "npm run docs"
+  },
+  "directories": {
+    "man": "./man"
+  },
+  "keywords": [
+    "couchdb",
+    "pouchdb"
+  ],
+  "author": "NavOgu",
+  "license": "MIT",
+  "bin": "./bin/lounger-cli.js",
+  "preferGlobal": true,
+  "bugs": {
+    "url": "http://example.bug/lounger/issues"
+  },
+  "dependencies": {
+    "config-chain": "^1.1.12",
+    "csv-parse": "^3.1.3",
+    "nopt": "^4.0.1",
+    "npmlog": "^4.1.2",
+    "opener": "^1.5.1",
+    "osenv": "^0.1.5",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "glob": "^7.1.3",
+    "marked": "^0.5.1",
+    "marked-man": "^0.2.1",
+    "mkdirp": "^0.5.1",
+    "mocha": "^5.2.0",
+    "nock": "^10.0.1",
+    "rimraf": "^2.6.2"
+  }
+}

@@ -35,6 +35,7 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+database/
 
 # TypeScript v1 declaration files
 typings/
@@ -71,3 +72,6 @@ typings/
 
 # Serverless directories
 .serverless
+
+#File for data Base
+config.json
